@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="pt-BR" data-d="a">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luan Miranda de Melo, redator e produtor de conteúdo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<style>
+:root{--bg:#fff;--sf:#F1F3F4;--ink:#202124;--mu:#5F6368;--ln:#DADCE0;--p:#1A73E8;--onp:#fff;--hl:#E8F0FE;--c2:#EA4335;--c3:#FBBC04;--c4:#34A853;--r:18px;--rb:999px;--fh:'Plus Jakarta Sans',system-ui,sans-serif;--fb:'Plus Jakarta Sans',system-ui,sans-serif;--hw:800;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+:root[data-d=b]{--bg:#FBF7F0;--sf:#F2EBDD;--ink:#1C1A16;--mu:#6A6357;--ln:#DCD2BF;--p:#0F6B5C;--hl:#E4EFEA;--c2:#D9480F;--c3:#E8B931;--c4:#0F6B5C;--r:4px;--rb:4px;--fh:'Fraunces',Georgia,serif;--hw:600}
+@media (prefers-color-scheme:dark){
+:root:not([data-theme=light]){--bg:#131416;--sf:#1E2023;--ink:#E8EAED;--mu:#9AA0A6;--ln:#3C4043;--p:#8AB4F8;--onp:#0B1B33;--hl:#1F2A3D;--c2:#F28B82;--c3:#FDD663;--c4:#81C995;color-scheme:dark}
+:root:not([data-theme=light])[data-d=b]{--bg:#15130F;--sf:#201D17;--ink:#F1EBDD;--mu:#A89F8C;--ln:#3A3529;--p:#5CC9B3;--onp:#07201B;--hl:#1B2B27;--c2:#FF8A5B;--c3:#F2C94C;--c4:#5CC9B3}}
+:root[data-theme=dark]{--bg:#131416;--sf:#1E2023;--ink:#E8EAED;--mu:#9AA0A6;--ln:#3C4043;--p:#8AB4F8;--onp:#0B1B33;--hl:#1F2A3D;--c2:#F28B82;--c3:#FDD663;--c4:#81C995;color-scheme:dark}
+:root[data-theme=dark][data-d=b]{--bg:#15130F;--sf:#201D17;--ink:#F1EBDD;--mu:#A89F8C;--ln:#3A3529;--p:#5CC9B3;--onp:#07201B;--hl:#1B2B27;--c2:#FF8A5B;--c3:#F2C94C;--c4:#5CC9B3}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.65 var(--fb);-webkit-font-smoothing:antialiased}
+h1,h2,h3,p,ul,ol,dl,dd{margin:0}
+h1,h2,h3{font-family:var(--fh);font-weight:var(--hw);line-height:1.12;letter-spacing:-.02em;text-wrap:balance}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--p);outline-offset:3px}
+[hidden]{display:none!important}
+.w{max-width:1120px;margin:0 auto;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+.k{display:block;font:700 .72rem/1.4 var(--fb);letter-spacing:.1em;text-transform:uppercase;color:var(--mu)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 22px;border-radius:var(--rb);background:var(--p);color:var(--onp);border:2px solid var(--p);font:700 .95rem var(--fb);text-decoration:none;cursor:pointer}
+.btn.o{background:transparent;color:var(--ink);border-color:var(--ln)}
+.btn.s{min-height:40px;padding:0 16px;font-size:.88rem}
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:6px 24px;padding-block:18px}
+.nome{font:var(--hw) 1rem var(--fh);text-decoration:none}
+.nome small{display:block;font:400 .78rem var(--fb);color:var(--mu)}
+.top nav{display:flex;flex-wrap:wrap;align-items:center;gap:0 20px}
+.top nav a:not(.btn){font-size:.88rem;font-weight:600;color:var(--mu);text-decoration:none;padding-block:12px}
+section{padding-block:clamp(52px,8vw,96px)}
+.sh{max-width:64ch;margin-bottom:36px;display:grid;gap:12px}
+.sh h2{font-size:clamp(1.7rem,3.6vw,2.6rem)}
+.sh p{color:var(--mu)}
+.hero{padding-block:clamp(16px,4vw,48px) clamp(40px,6vw,72px)}
+.hg{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(24px,5vw,60px);align-items:center}
+.dots{display:flex;gap:6px;margin-bottom:18px}
+.dots i{width:28px;height:6px;border-radius:9px}
+.dots i:nth-child(1){background:var(--p)}.dots i:nth-child(2){background:var(--c2)}.dots i:nth-child(3){background:var(--c3)}.dots i:nth-child(4){background:var(--c4)}
+[data-d=b] .dots i{border-radius:0;height:3px}
+.hero h1{font-size:clamp(2rem,5vw,3.5rem)}
+.hero h1 em{font-style:normal;color:var(--p)}
+[data-d=b] .hero h1 em{font-style:italic;color:var(--c2)}
+.lead{margin-top:22px;max-width:56ch;font-size:1.1rem;color:var(--mu)}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.proof{background:var(--sf);border:1px solid var(--ln);border-radius:var(--r);padding:clamp(18px,3vw,28px);display:grid;gap:12px}
+.proof p{font-size:1.1rem;line-height:1.5}
+del{color:var(--mu);text-decoration-color:var(--c2);text-decoration-thickness:2px}
+ins{text-decoration:none;background:var(--hl);color:var(--ink);font-weight:700;padding:.05em .25em;border-radius:4px}
+.cy>*{--cc:var(--p)}.cy>:nth-child(4n+2){--cc:var(--c2)}.cy>:nth-child(4n+3){--cc:var(--c3)}.cy>:nth-child(4n+4){--cc:var(--c4)}
+[data-d=b] .cy>*{--cc:var(--ink)}
+.pil{list-style:none;padding:0;margin:clamp(36px,5vw,56px) 0 0;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.pil li{border-top:4px solid var(--cc);padding-top:12px;display:grid;gap:4px;align-content:start}
+.pil b{font:var(--hw) 1.02rem/1.3 var(--fh)}
+.pil span{font-size:.85rem;color:var(--mu)}
+.svcs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.svc{background:var(--sf);border-radius:var(--r);border-top:4px solid var(--cc);padding:22px;display:flex;flex-direction:column;gap:18px}
+.svc>div{display:grid;gap:8px;align-content:start}
+.svc h3{font-size:1.08rem;line-height:1.25}
+.svc p{font-size:.95rem;color:var(--mu)}
+.svc .get{margin-top:auto;border-top:1px dashed var(--ln);padding-top:14px}
+.svc .get p{color:var(--p);font-weight:600}
+.band{background:var(--sf)}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:14px}
+.tabs button{flex:none;min-height:44px;padding:0 18px;border-radius:var(--rb);border:1px solid var(--ln);background:var(--bg);color:var(--ink);font:700 .92rem var(--fb);cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--p);color:var(--onp);border-color:var(--p)}
+.panel{background:var(--bg);border:1px solid var(--ln);border-radius:var(--r);padding:clamp(18px,3vw,36px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,3vw,40px)}
+.panel>*{min-width:0}
+.panel h3{font-size:1.5rem;margin:14px 0 12px}
+.panel p{color:var(--mu)}
+.panel .btn{margin-top:20px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chips span{background:var(--hl);border-radius:var(--rb);padding:4px 12px;font-size:.85rem;font-weight:600}
+.r{display:grid;gap:14px;align-content:start}
+.bx{border:1px solid var(--ln);border-radius:var(--r);padding:18px 20px;display:grid;gap:10px;align-content:start}
+.bx.hl{background:var(--hl);border-color:transparent}
+.bx ul,.bx ol{margin:0;padding-left:1.2em;display:grid;gap:8px;font-size:.95rem}
+.proc{list-style:none;padding:0;counter-reset:p;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:22px}
+.proc li{counter-increment:p;display:grid;gap:8px;align-content:start}
+.proc li::before{content:counter(p);display:grid;place-items:center;width:36px;height:36px;border-radius:var(--rb);border:2px solid var(--cc);font-weight:800}
+.proc h3{font-size:1.05rem}
+.proc p{font-size:.93rem;color:var(--mu)}
+.ab{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px)}
+.ab h3{font-size:1.2rem;margin-bottom:16px}
+.tl{display:grid;gap:12px}
+.tl div{border-top:1px solid var(--ln);padding-top:10px}
+.tl dt{font-weight:700}
+.tl dd{color:var(--mu);font-size:.93rem}
+.fc{list-style:none;padding:0;margin:0 0 20px;display:grid;gap:10px;font-size:.95rem}
+.fc span{color:var(--mu)}
+.ct{background:var(--p);color:var(--onp)}
+.ct h2{font-size:clamp(1.8rem,4vw,2.9rem);max-width:20ch;margin-bottom:26px}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding-block:16px;border-top:1px solid rgba(127,127,127,.45)}
+.row .k{color:inherit;opacity:.8;min-width:6em}
+.row .v{font:var(--hw) clamp(1.05rem,3vw,1.5rem) var(--fh);flex:1 1 14ch;overflow-wrap:anywhere}
+.btn.i{background:var(--onp);color:var(--p);border-color:var(--onp)}
+.btn.oi{background:transparent;color:inherit;border-color:currentColor}
+footer{padding:28px 0 96px;font-size:.85rem;color:var(--mu)}
+.sw{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));pointer-events:none;z-index:9}
+.sw div{pointer-events:auto;display:flex;gap:4px;padding:4px;background:var(--bg);border:1px solid var(--ln);border-radius:var(--rb);box-shadow:0 6px 24px rgba(0,0,0,.2)}
+.sw button{min-height:40px;padding:0 16px;border:0;border-radius:var(--rb);background:none;color:var(--ink);font:700 .85rem var(--fb);cursor:pointer}
+.sw button[aria-pressed=true]{background:var(--p);color:var(--onp)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:900px){.hg,.panel,.ab{grid-template-columns:1fr}.svcs,.pil{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.svcs,.pil{grid-template-columns:1fr}}
+.cb{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px}
+.cb>div{background:var(--bg);border-top:4px solid var(--cc);border-radius:var(--r);padding:16px 18px;display:grid;gap:4px;align-content:start}
+.cb p{font-size:.95rem;color:var(--mu)}
+.bx b{color:var(--ink)}
+.sm{font-size:.85rem}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:380px;font-size:.88rem}
+th{font:700 .7rem var(--fb);letter-spacing:.08em;text-transform:uppercase;color:var(--mu);text-align:left;padding:6px 10px 6px 0;border-bottom:1px solid var(--ln)}
+td{padding:8px 10px 8px 0;border-bottom:1px solid var(--ln);vertical-align:top}
+.ba{display:grid;gap:6px;padding-top:12px;border-top:1px solid var(--ln)}
+.ba:first-of-type{border-top:0;padding-top:0}
+.ba .why{font-size:.88rem}
+@media (max-width:900px){.cb{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="w top">
+  <a class="nome" href="#inicio">Luan Miranda de Melo<small>Redator e produtor de conteúdo</small></a>
+  <nav aria-label="Seções">
+    <a href="#servicos">Serviços</a><a href="#trabalho">Meu trabalho</a><a href="#processo">Como funciona</a><a href="#sobre">Sobre</a>
+    <a class="btn s" href="#contato">Vamos conversar</a>
+  </nav>
+</header>
+
+<main id="inicio">
+<section class="hero"><div class="w">
+  <div class="hg">
+    <div>
+      <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <span class="k" style="margin-bottom:12px">Redação, SEO e planejamento de conteúdo</span>
+      <h1>Conteúdo <em>planejado, escrito e revisado</em>, do briefing à publicação.</h1>
+      <p class="lead">Planejamento e produção de conteúdo para sites, blogs e campanhas, com pesquisa, revisão e linguagem alinhada à sua marca. Você compartilha o objetivo; eu organizo as informações e desenvolvo o conteúdo.</p>
+      <div class="cta"><a class="btn" href="#contato">Vamos falar do seu projeto</a><a class="btn o" href="#trabalho">Conheça meu trabalho</a></div>
+    </div>
+    <aside class="proof" aria-label="Exemplo de revisão">
+      <span class="k">Revisão na prática · antes e depois</span>
+      <p><del>Para solicitar informações sobre os serviços disponibilizados pela nossa empresa, entre em contato por meio do formulário abaixo.</del></p>
+      <p><ins>Quer conhecer nossos serviços? Envie sua dúvida pelo formulário.</ins></p>
+      <p style="font-size:.9rem;color:var(--mu)">O que mudou: menos formalidade, ação explícita e sentido preservado.</p>
+    </aside>
+  </div>
+  <ul class="pil cy">
+    <li><b>Redação e copywriting</b><span>Sites · blogs · páginas e campanhas</span></li>
+    <li><b>Planejamento e SEO</b><span>Pautas · calendário editorial · palavras-chave</span></li>
+    <li><b>Tradução e transcrição</b><span>Português · inglês · espanhol</span></li>
+    <li><b>Design e desenvolvimento</b><span>Comunicação visual · interfaces · sites</span></li>
+  </ul>
+</div></section>
+
+<section id="servicos"><div class="w">
+  <div class="sh"><h2>Serviços de conteúdo para cada necessidade</h2><p>Do texto do site ao calendário editorial, cada serviço parte de um objetivo. Veja como trabalho e o que você recebe ao final.</p></div>
+  <div class="svcs cy">
+    <article class="svc"><div><span class="k">Você precisa</span><h3>Redação clara para o seu negócio</h3></div><div><span class="k">Método · redação para sites e blogs</span><p>Identifico quem vai ler, quais dúvidas precisam ser respondidas e o objetivo do conteúdo. Escrevo com linguagem acessível, títulos informativos e informações verificadas.</p></div><div class="get"><span class="k">Você recebe</span><p>Textos revisados e prontos para publicação, com estrutura organizada e tom de voz alinhado à sua marca ou à do seu cliente.</p></div></article>
+    <article class="svc"><div><span class="k">Você precisa</span><h3>Copy que orienta a decisão</h3></div><div><span class="k">Método · copywriting</span><p>Organizo a mensagem em torno de um benefício relevante, respondo às principais dúvidas e apresento uma chamada para ação clara em páginas, anúncios, e-mails ou legendas.</p></div><div class="get"><span class="k">Você recebe</span><p>Textos prontos para os canais definidos, com variações de títulos e chamadas para testar.</p></div></article>
+    <article class="svc"><div><span class="k">Você precisa</span><h3>Conteúdo alinhado ao que seu público busca</h3></div><div><span class="k">Método · SEO para sites e blogs</span><p>Pesquiso palavras-chave e intenções de busca para orientar o conteúdo. Organizo temas, títulos e links internos e preparo sugestões de títulos e descrições para as páginas.</p></div><div class="get"><span class="k">Você recebe</span><p>Mapeamento de palavras-chave, estrutura de títulos, sugestões de títulos e descrições para busca e recomendações de links internos.</p></div></article>
+    <article class="svc"><div><span class="k">Você precisa</span><h3>Redes sociais com conteúdo consistente e relevante</h3></div><div><span class="k">Método · conteúdo para redes sociais</span><p>Defino a linguagem da marca, produzo legendas e roteiros e acompanho as interações com o público. Analiso as respostas ao conteúdo para orientar os próximos ajustes.</p></div><div class="get"><span class="k">Você recebe</span><p>Legendas e roteiros prontos, respostas à comunidade e um resumo dos resultados, conforme o escopo contratado.</p></div></article>
+    <article class="svc"><div><span class="k">Você precisa</span><h3>Um plano para cada publicação</h3></div><div><span class="k">Método · planejamento de conteúdo</span><p>Transformo seus objetivos em temas, formatos e prioridades. Organizo um calendário editorial adequado aos canais da marca e à capacidade de produção da equipe.</p></div><div class="get"><span class="k">Você recebe</span><p>Calendário editorial mensal com temas, formatos, canais, datas e objetivo de cada publicação.</p></div></article>
+    <article class="svc"><div><span class="k">Você precisa</span><h3>Tradução com sentido e naturalidade</h3></div><div><span class="k">Método · tradução em português, inglês e espanhol</span><p>Traduzo entre os três idiomas com atenção ao sentido, ao contexto e ao público. Adapto expressões, referências e tom de voz para preservar a intenção do texto original.</p></div><div class="get"><span class="k">Você recebe</span><p>Texto traduzido e revisado, com terminologia consistente e glossário dos termos da marca quando necessário.</p></div></article>
+    <article class="svc"><div><span class="k">Você precisa</span><h3>Áudios e vídeos transformados em texto organizado</h3></div><div><span class="k">Método · transcrição de áudio e vídeo</span><p>Transcrevo entrevistas, reuniões, aulas e podcasts. Na versão literal, preservo as falas; na editada, retiro hesitações e repetições sem alterar o sentido.</p></div><div class="get"><span class="k">Você recebe</span><p>Transcrição literal ou editada, com identificação dos falantes e sinalização de trechos que precisam de conferência.</p></div></article>
+    <article class="svc"><div><span class="k">Você precisa</span><h3>Interfaces com orientações claras</h3></div><div><span class="k">Método · UX writing para sites e aplicativos</span><p>Reviso botões, mensagens de erro e telas vazias para tornar as orientações mais claras. Cada texto considera o contexto de uso e a próxima ação disponível.</p></div><div class="get"><span class="k">Você recebe</span><p>Microtextos revisados, com comparação entre versões e um guia de tom de voz para a interface.</p></div></article>
+    <article class="svc"><div><span class="k">Você precisa</span><h3>Textos revisados com clareza e precisão</h3></div><div><span class="k">Método · revisão e edição de textos</span><p>Corrijo ortografia, gramática e pontuação e aprimoro a organização, a clareza e o ritmo. Preservo a voz do autor e a intenção da mensagem.</p></div><div class="get"><span class="k">Você recebe</span><p>Texto revisado e uma relação das principais alterações realizadas.</p></div></article>
+  </div>
+  <div class="cta" style="margin-top:36px"><a class="btn" href="#contato">Pedir uma proposta</a><a class="btn o" href="#trabalho">Ver meu trabalho</a></div>
+</div></section>
+
+<section id="trabalho" class="band"><div class="w">
+  <div class="sh"><span class="k">Estudo de caso demonstrativo</span><h2>Meu trabalho na prática</h2>
+    <p>Da estratégia à entrega, veja como uma mesma proposta de conteúdo pode ser desenvolvida em diferentes formatos, canais e idiomas. Este estudo de caso mostra como aplico redação, SEO, planejamento, UX writing, social media, tradução, transcrição e revisão em um mesmo projeto, explicando o objetivo, o método e as decisões por trás de cada peça.</p>
+    <p class="sm">Projeto demonstrativo autoral, criado para este portfólio. Os exemplos não representam campanhas veiculadas nem resultados reais de clientes.</p></div>
+  <div class="cb cy"><div><span class="k">Projeto-base</span><p>Apresentação de um serviço de redação e conteúdo.</p></div><div><span class="k">Objetivo</span><p>Comunicar valor, organizar informações e facilitar o contato.</p></div><div><span class="k">Entregas</span><p>SEO, redação, social media, UX writing, planejamento, tradução, transcrição e revisão.</p></div></div>
+  <div class="tabs" role="tablist" aria-label="Etapas do estudo de caso">
+    <button role="tab" id="t0" aria-controls="p0" aria-selected="true">Visão geral</button>
+    <button role="tab" id="t1" aria-controls="p1" aria-selected="false" tabindex="-1">Estratégia</button>
+    <button role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1">SEO</button>
+    <button role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1">Redação e copy</button>
+    <button role="tab" id="t4" aria-controls="p4" aria-selected="false" tabindex="-1">Social media</button>
+    <button role="tab" id="t5" aria-controls="p5" aria-selected="false" tabindex="-1">Planejamento</button>
+    <button role="tab" id="t6" aria-controls="p6" aria-selected="false" tabindex="-1">UX writing</button>
+    <button role="tab" id="t7" aria-controls="p7" aria-selected="false" tabindex="-1">Tradução</button>
+    <button role="tab" id="t8" aria-controls="p8" aria-selected="false" tabindex="-1">Transcrição</button>
+    <button role="tab" id="t9" aria-controls="p9" aria-selected="false" tabindex="-1">Revisão</button>
+  </div>
+
+  <div class="panel" id="p0" role="tabpanel" aria-labelledby="t0">
+    <div class="r"><h3>O ponto de partida</h3>
+      <p>Antes de escrever qualquer peça, defino o objetivo da comunicação, o público, os canais e o tipo de decisão que o conteúdo precisa orientar. Aqui, o desafio é apresentar um serviço de redação e conteúdo de forma clara, confiável e útil para quem precisa contratá-lo.</p>
+      <div class="bx"><span class="k">Exemplo produzido · briefing resumido</span><div class="tbl"><table><tbody>
+        <tr><td><b>Serviço</b></td><td>Redação, SEO, planejamento, tradução, transcrição e revisão</td></tr>
+        <tr><td><b>Público</b></td><td>Empreendedores, pequenas empresas e agências</td></tr>
+        <tr><td><b>Objetivo</b></td><td>Gerar entendimento sobre o serviço e incentivar pedidos de proposta</td></tr>
+        <tr><td><b>Canais</b></td><td>Landing page, blog, busca orgânica, redes sociais, e-mail e interfaces</td></tr>
+        <tr><td><b>Tom de voz</b></td><td>Profissional, informativo, inteligente e confiável</td></tr>
+        <tr><td><b>Ação desejada</b></td><td>Enviar uma demanda ou solicitar uma proposta</td></tr></tbody></table></div></div></div>
+    <div class="r">
+      <div class="bx"><span class="k">Entregas demonstradas</span><ul><li>Estrutura de landing page e textos de página de serviço</li><li>Títulos e descrições otimizados para busca</li><li>Pautas e calendário editorial</li><li>Posts para redes sociais e roteiro de vídeo curto</li><li>Mensagens de interface</li><li>Tradução para inglês e espanhol</li><li>Transcrição literal e editada</li><li>Revisão comentada de texto</li></ul></div>
+      <div class="bx hl"><span class="k">O que seria entregue ao cliente</span><ul><li>Briefing alinhado, com escopo, prazos e critérios de aprovação</li><li>Plano das peças a produzir, por canal</li></ul></div></div>
+  </div>
+
+  <div class="panel" id="p1" role="tabpanel" aria-labelledby="t1" hidden>
+    <div class="r"><h3>Da intenção do projeto à organização da mensagem</h3>
+      <p>A estratégia define o papel de cada conteúdo. Nem toda peça precisa vender diretamente: algumas apresentam o serviço, outras respondem dúvidas, demonstram método ou facilitam o contato.</p>
+      <div class="bx"><span class="k">Exemplo produzido · pilares de conteúdo</span><div class="tbl"><table><thead><tr><th>Pilar</th><th>Função</th><th>Exemplos</th></tr></thead><tbody>
+        <tr><td><b>Apresentação do serviço</b></td><td>Explicar o que é oferecido</td><td>Página de serviço, post fixado, carrossel institucional</td></tr>
+        <tr><td><b>Educação do público</b></td><td>Responder dúvidas comuns</td><td>Blog, FAQ, posts explicativos</td></tr>
+        <tr><td><b>Demonstração de método</b></td><td>Mostrar como o trabalho é feito</td><td>Antes e depois, estudo de caso, bastidores</td></tr>
+        <tr><td><b>Conversão</b></td><td>Incentivar contato qualificado</td><td>Landing page, CTA, e-mail, formulário</td></tr>
+        <tr><td><b>Relacionamento</b></td><td>Manter presença e conversa</td><td>Redes sociais, respostas a comentários, newsletter</td></tr></tbody></table></div></div></div>
+    <div class="r">
+      <div class="bx"><span class="k">Decisões por trás do texto</span><p>A comunicação não depende só de frases persuasivas. Antes da chamada para ação, o conteúdo precisa responder:</p><ul><li>O que é oferecido?</li><li>Para quem esse serviço faz sentido?</li><li>Qual problema ele ajuda a resolver?</li><li>Como funciona o processo?</li><li>O que a pessoa recebe ao final?</li><li>Qual é o próximo passo?</li></ul></div>
+      <div class="bx hl"><span class="k">O que seria entregue ao cliente</span><ul><li>Pilares de conteúdo e a função de cada um</li><li>Temas, formatos e prioridades por canal</li></ul></div></div>
+  </div>
+
+  <div class="panel" id="p2" role="tabpanel" aria-labelledby="t2" hidden>
+    <div class="r"><h3>Da busca à estrutura da página</h3>
+      <p>O SEO começa entendendo o que o público procura e que tipo de resposta espera encontrar. A partir disso, organizo páginas, títulos e descrições para aproximar a oferta da intenção de busca.</p>
+      <div class="bx"><span class="k">Exemplo produzido · termos ilustrativos</span><div class="tbl"><table><thead><tr><th>Palavra-chave</th><th>Intenção</th><th>Página sugerida</th></tr></thead><tbody>
+        <tr><td>redator freelancer</td><td>Contratar um profissional de texto</td><td>Página principal de serviço</td></tr>
+        <tr><td>redator para agência</td><td>Encontrar apoio para demandas de clientes</td><td>Página para agências</td></tr>
+        <tr><td>redação para sites</td><td>Contratar texto para presença digital</td><td>Página de serviço</td></tr>
+        <tr><td>planejamento de conteúdo</td><td>Organizar publicações e canais</td><td>Página ou artigo</td></tr>
+        <tr><td>revisão de textos</td><td>Corrigir e melhorar materiais existentes</td><td>Página de revisão</td></tr>
+        <tr><td>tradução de conteúdo</td><td>Adaptar textos para outro idioma</td><td>Página de tradução</td></tr></tbody></table></div>
+        <p class="sm">Em um projeto real, o mapeamento considera pesquisa, concorrência, volume, intenção e prioridade comercial.</p></div>
+      <div class="bx"><span class="k">Exemplo produzido · title e meta description</span><p><b>Title:</b> Redator freelancer para empresas e agências | Luan Miranda</p><p><b>Meta:</b> Textos para sites, blogs e campanhas, com pesquisa, revisão e tom de voz alinhado à sua marca. Conheça o trabalho e solicite uma proposta.</p></div></div>
+    <div class="r">
+      <div class="bx"><span class="k">Exemplo produzido · estrutura da página</span><ul><li><b>H1</b> Redator freelancer para empresas e agências</li><li><b>H2</b> Textos para apresentar seu negócio com clareza</li><li><b>H2</b> Serviços de redação e conteúdo<br><span class="sm"><b>H3</b> Redação para sites · Artigos para blog · Copywriting para páginas e campanhas · Revisão, tradução e transcrição</span></li><li><b>H2</b> Como funciona o processo</li><li><b>H2</b> Exemplos de trabalho</li><li><b>H2</b> Perguntas frequentes</li><li><b>H2</b> Solicite uma proposta</li></ul></div>
+      <div class="bx"><span class="k">Decisões por trás do texto</span><ul><li>O título identifica o serviço principal e o público.</li><li>A descrição apresenta formatos de entrega e o diferencial de processo.</li><li>A página separa serviços, método, exemplos e contato.</li><li>Não prometo posição no Google: o foco é clareza, relevância e organização.</li></ul></div>
+      <div class="bx hl"><span class="k">O que seria entregue ao cliente</span><ul><li>Mapeamento de palavras-chave e estrutura de títulos</li><li>Sugestões de title e description</li><li>Recomendações de links internos</li></ul></div></div>
+  </div>
+
+  <div class="panel" id="p3" role="tabpanel" aria-labelledby="t3" hidden>
+    <div class="r"><h3>Uma mensagem, diferentes formatos</h3>
+      <p>A mesma oferta pode ser apresentada em canais diferentes. O papel da redação é adaptar a mensagem ao espaço, ao objetivo e ao momento do público.</p>
+      <div class="bx"><span class="k">Exemplo 1 · hero de landing page</span><p><b>Título:</b> Redação e conteúdo para apresentar seu negócio com clareza.</p><p><b>Apoio:</b> Planejamento e produção de conteúdo para sites, blogs e campanhas, com pesquisa, revisão e linguagem alinhada à sua marca. Você compartilha o objetivo; eu organizo as informações e desenvolvo o conteúdo.</p><p><b>Botões:</b> Vamos falar do seu projeto · Conheça meu trabalho</p></div>
+      <div class="bx"><span class="k">Exemplo 2 · abertura de artigo de blog</span><p><b>O que escrever no site da sua empresa? Comece por estas três respostas</b></p><p>Antes de pensar em páginas, botões e imagens, vale responder a três perguntas: o que você oferece, para quem e qual próximo passo espera do visitante. Essas respostas ajudam a organizar o texto do site e evitam uma apresentação genérica.</p></div></div>
+    <div class="r">
+      <div class="bx"><span class="k">Exemplo 3 · e-mail</span><p><b>Assunto A:</b> Seu site explica o que sua empresa faz?</p><p><b>Assunto B:</b> 3 perguntas para revisar o texto do seu site</p><p><b>Abertura:</b> Se uma pessoa entra no seu site e não entende rapidamente o que você oferece, talvez o problema não esteja no serviço, e sim na forma como ele está apresentado.</p></div>
+      <div class="bx"><span class="k">Exemplo 4 · página de serviço</span><p><b>Redação para sites que explicam o que sua empresa faz</b></p><p>Textos para apresentar seus serviços, responder às dúvidas do público e orientar o próximo passo. O trabalho inclui organização das informações, redação, revisão e ajustes de linguagem conforme o tom da sua marca.</p><p><b>Botão:</b> Solicitar proposta</p></div>
+      <div class="bx"><span class="k">Decisões por trás do texto</span><ul><li>A landing page comunica a oferta de forma direta.</li><li>O blog começa por uma dúvida prática.</li><li>O e-mail usa uma pergunta para estimular a revisão.</li><li>A página de serviço mostra o que é entregue sem exagerar promessas.</li></ul></div>
+      <div class="bx hl"><span class="k">O que seria entregue ao cliente</span><ul><li>Textos prontos para os canais definidos</li><li>Variações de títulos e chamadas para testar</li></ul></div></div>
+  </div>
+
+  <div class="panel" id="p4" role="tabpanel" aria-labelledby="t4" hidden>
+    <div class="r"><h3>Uma pauta, diferentes formas de conversar</h3>
+      <p>Nas redes sociais, o conteúdo precisa ser claro, útil e adaptado ao formato. A mesma ideia pode virar carrossel, vídeo curto, legenda ou resposta à comunidade.</p>
+      <div class="bx"><span class="k">Exemplo 1 · carrossel de 5 telas</span><p><b>Tema:</b> como revisar a clareza de um post antes de publicar.</p><ol><li><b>Seu post está claro para quem lê?</b> 3 perguntas para revisar antes de publicar.</li><li><b>Dá para entender o tema pelo título?</b> Evite títulos genéricos e mostre logo o assunto.</li><li><b>O texto explica por que isso importa?</b> Mostre qual dúvida ou necessidade o serviço resolve.</li><li><b>Existe um próximo passo claro?</b> Salvar, comentar, acessar um link ou enviar mensagem: escolha uma ação principal.</li><li><b>Antes de publicar, confira:</b> o assunto está explícito, a relevância está clara, o convite faz sentido. Quer apoio com os textos da sua marca? Envie uma mensagem.</li></ol></div></div>
+    <div class="r">
+      <div class="bx"><span class="k">Exemplo 2 · roteiro de Reels · 20 a 25 s</span><p><b>Abertura:</b> Antes de publicar um post, faça três perguntas.</p><p><b>1.</b> O título deixa claro o assunto? <b>2.</b> O texto mostra por que isso importa para quem lê? <b>3.</b> Existe um próximo passo?</p><p><b>Fechamento:</b> Salve este roteiro para revisar seu próximo conteúdo.</p></div>
+      <div class="bx"><span class="k">Exemplo 3 · resposta à comunidade</span><p><b>Comentário:</b> Você também escreve para agências?</p><p><b>Resposta:</b> Sim. Atendo agências com redação de textos para sites, posts, roteiros e materiais de campanha, seguindo o briefing e o tom de voz de cada cliente. Se quiser, envie por mensagem o tipo de demanda, o volume e o prazo.</p></div>
+      <div class="bx"><span class="k">Decisões por trás do texto</span><ul><li>O carrossel ensina uma revisão simples.</li><li>O Reels transforma o conteúdo em checklist falado.</li><li>A resposta informa sem parecer automática.</li><li>O CTA muda conforme o formato.</li></ul></div>
+      <div class="bx hl"><span class="k">O que seria entregue ao cliente</span><ul><li>Legendas e roteiros prontos</li><li>Respostas à comunidade</li><li>Resumo dos resultados, conforme o escopo contratado</li></ul></div></div>
+  </div>
+
+  <div class="panel" id="p5" role="tabpanel" aria-labelledby="t5" hidden>
+    <div class="r"><h3>Um mês de conteúdo, com direção e continuidade</h3>
+      <p>O planejamento organiza temas, formatos e objetivos. A proposta não é apenas preencher datas, mas construir uma sequência coerente de publicações.</p>
+      <div class="bx"><span class="k">Exemplo produzido · parâmetros</span><p><b>Frequência:</b> 3 publicações por semana. <b>Canal:</b> Instagram. <b>Objetivo do mês:</b> apresentar o serviço, demonstrar método e gerar conversas qualificadas.</p></div></div>
+    <div class="r">
+      <div class="bx"><span class="k">Decisões por trás do texto</span><ul><li>As publicações alternam educação, demonstração e convite.</li><li>Nem todo post pede venda direta.</li><li>O calendário respeita uma frequência possível.</li><li>As pautas podem ser reaproveitadas em blog, e-mail e redes sociais.</li></ul></div>
+      <div class="bx hl"><span class="k">O que seria entregue ao cliente</span><ul><li>Calendário editorial mensal</li><li>Tema, formato, canal, data e objetivo de cada publicação</li></ul></div></div>
+    <div class="bx" style="grid-column:1/-1"><span class="k">Calendário editorial demonstrativo</span><div class="tbl"><table style="min-width:560px"><thead><tr><th>Semana · dia</th><th>Pauta</th><th>Formato</th><th>Objetivo</th></tr></thead><tbody>
+      <tr><td>1 · Seg</td><td>O que faz um redator freelancer?</td><td>Carrossel</td><td>Explicar o serviço</td></tr>
+      <tr><td>1 · Qua</td><td>Seu site explica o que sua empresa faz?</td><td>Reels</td><td>Gerar identificação</td></tr>
+      <tr><td>1 · Sex</td><td>Antes e depois de um texto de serviço</td><td>Carrossel</td><td>Demonstrar método</td></tr>
+      <tr><td>2 · Seg</td><td>O que enviar em um briefing de conteúdo?</td><td>Carrossel</td><td>Preparar o público</td></tr>
+      <tr><td>2 · Qua</td><td>Preciso ter a ideia pronta para contratar?</td><td>Reels</td><td>Reduzir objeções</td></tr>
+      <tr><td>2 · Sex</td><td>Como uma dúvida vira pauta</td><td>Post explicativo</td><td>Mostrar estratégia</td></tr>
+      <tr><td>3 · Seg</td><td>Uma ideia em três formatos: blog, post e e-mail</td><td>Carrossel</td><td>Mostrar adaptação</td></tr>
+      <tr><td>3 · Qua</td><td>Como revisar um título genérico</td><td>Reels</td><td>Evidenciar técnica</td></tr>
+      <tr><td>3 · Sex</td><td>O que você recebe ao contratar redação</td><td>Carrossel</td><td>Tornar a entrega concreta</td></tr>
+      <tr><td>4 · Seg</td><td>Texto avulso ou produção recorrente?</td><td>Carrossel</td><td>Ajudar na decisão</td></tr>
+      <tr><td>4 · Qua</td><td>Como funciona a revisão do material</td><td>Reels</td><td>Explicar o processo</td></tr>
+      <tr><td>4 · Sex</td><td>Comece seu projeto com estas informações</td><td>Post estático</td><td>Incentivar contato</td></tr></tbody></table></div>
+      <p class="sm">Semanas: 1 apresentação · 2 educação · 3 demonstração · 4 conversão.</p></div>
+  </div>
+
+  <div class="panel" id="p6" role="tabpanel" aria-labelledby="t6" hidden>
+    <div class="r"><h3>Textos que orientam cada próximo passo</h3>
+      <p>O UX writing ajuda a pessoa a entender o que fazer em uma interface. Botões, mensagens de erro e confirmações precisam ser claros, úteis e coerentes com o contexto.</p>
+      <div class="bx"><span class="k">Exemplo produzido · fluxo do formulário de proposta</span>
+        <div class="ba"><span class="k">1 · Campo de briefing</span><p><del>Observações.</del></p><p><ins>Conte sobre seu projeto.</ins></p><p>Apoio: Descreva o que você precisa, onde o material será usado e se há um prazo definido.</p><p class="why"><b>Decisão:</b> o campo explica que tipo de informação enviar.</p></div>
+        <div class="ba"><span class="k">2 · Erro de e-mail</span><p><del>Campo inválido.</del></p><p><ins>Confira o endereço de e-mail. Exemplo de formato: nome@empresa.com.</ins></p><p class="why"><b>Decisão:</b> identifica o problema e oferece uma referência de correção.</p></div>
+        <div class="ba"><span class="k">3 · Botão</span><p><del>Enviar.</del></p><p><ins>Solicitar proposta.</ins></p><p class="why"><b>Decisão:</b> o botão descreve a ação com mais precisão.</p></div></div></div>
+    <div class="r">
+      <div class="bx"><div class="ba"><span class="k">4 · Confirmação</span><p><del>Operação realizada com sucesso.</del></p><p><ins>Solicitação enviada. Vou responder pelo e-mail informado para alinhar os próximos passos.</ins></p><p class="why"><b>Decisão:</b> explica o que aconteceu e o que vem depois.</p></div>
+        <div class="ba"><span class="k">5 · Falha no envio</span><p><del>Erro ao processar operação.</del></p><p><ins>Não foi possível enviar sua solicitação. Tente novamente. Se o problema continuar, entre em contato por e-mail.</ins></p><p>Botões: Tentar novamente · Ver e-mail de contato</p><p class="why"><b>Decisão:</b> oferece uma ação principal e uma alternativa.</p></div></div>
+      <div class="bx hl"><span class="k">O que seria entregue ao cliente</span><ul><li>Microtextos revisados, com comparação entre versões</li><li>Guia de tom de voz para a interface</li></ul></div></div>
+  </div>
+
+  <div class="panel" id="p7" role="tabpanel" aria-labelledby="t7" hidden>
+    <div class="r"><h3>A mesma mensagem, em outro idioma</h3>
+      <p>A tradução não é apenas troca de palavras. É preciso preservar intenção, tom, contexto e ação esperada.</p>
+      <div class="bx"><span class="k">Português · original</span><p lang="pt-BR"><b>Seu negócio, explicado com clareza.</b> Textos para sites que apresentam seus serviços, respondem às dúvidas do público e orientam o próximo passo. Você compartilha os objetivos e as informações do projeto; eu organizo o conteúdo e desenvolvo os textos, com revisão antes da entrega.</p><p><b>Botão:</b> Solicitar proposta</p></div>
+      <div class="bx"><span class="k">Decisões por trás do texto</span><ul><li>“Textos para sites” virou “website copy” em inglês.</li><li>“Solicitar proposta” virou “Request a quote” e “Solicitar presupuesto”.</li><li>A oferta é preservada, sem tradução palavra por palavra.</li><li>O espanhol mantém um tratamento direto e consistente.</li></ul></div></div>
+    <div class="r">
+      <div class="bx"><span class="k">Inglês</span><p lang="en"><b>A clear message for your business.</b> Website copy that explains your services, answers your audience’s questions, and guides visitors to the next step. You share your project goals and details; I organize the content and write the copy, reviewing it before delivery.</p><p><b>Button:</b> Request a quote</p></div>
+      <div class="bx"><span class="k">Espanhol</span><p lang="es"><b>Tu negocio, explicado con claridad.</b> Textos para tu web que presentan tus servicios, responden a las preguntas de tu público y orientan sobre el siguiente paso. Tú compartes los objetivos y la información del proyecto; yo organizo el contenido y redacto los textos, con revisión antes de la entrega.</p><p><b>Botón:</b> Solicitar presupuesto</p></div>
+      <div class="bx hl"><span class="k">O que seria entregue ao cliente</span><ul><li>Texto traduzido e revisado</li><li>Terminologia consistente e glossário dos termos da marca, quando necessário</li></ul></div></div>
+  </div>
+
+  <div class="panel" id="p8" role="tabpanel" aria-labelledby="t8" hidden>
+    <div class="r"><h3>Uma fala, duas formas de entrega</h3>
+      <p>A transcrição pode registrar a fala de forma literal ou preparar uma versão editada para leitura. A escolha depende do uso do material.</p>
+      <div class="bx"><span class="k">Trecho literal</span><p><b>Entrevistador:</b> Como você organiza as informações antes de escrever?</p><p><b>Luan:</b> Então, primeiro eu tento entender qual é o objetivo do texto, né? Se é vender, explicar, atrair busca… depende muito. Aí eu vejo quem vai ler, onde vai ser publicado e quais informações já existem.</p><p><b>Entrevistador:</b> E quando o cliente ainda não tem tudo definido?</p><p><b>Luan:</b> Acontece bastante. Nesse caso, eu faço perguntas pra chegar no essencial: o que precisa ser comunicado, pra quem e qual ação a pessoa deve tomar depois da leitura.</p></div></div>
+    <div class="r">
+      <div class="bx"><span class="k">Versão editada</span><p><b>Entrevistador:</b> Como você organiza as informações antes de escrever?</p><p><b>Luan:</b> Primeiro, entendo o objetivo do texto: vender, explicar, atrair busca ou apoiar outra etapa da comunicação. Depois, considero quem vai ler, onde o conteúdo será publicado e quais informações já estão disponíveis.</p><p><b>Entrevistador:</b> E quando o cliente ainda não tem tudo definido?</p><p><b>Luan:</b> Nesse caso, faço perguntas para chegar ao essencial: o que precisa ser comunicado, para quem e qual ação a pessoa deve tomar depois da leitura.</p></div>
+      <div class="bx"><span class="k">Decisões por trás do texto</span><ul><li>Hesitações foram removidas.</li><li>Frases longas foram reorganizadas.</li><li>A fala foi preservada, sem acrescentar informações.</li><li>O conteúdo ficou mais adequado para leitura.</li></ul></div>
+      <div class="bx hl"><span class="k">O que seria entregue ao cliente</span><ul><li>Transcrição literal ou editada, conforme o uso</li><li>Identificação dos falantes e sinalização de trechos que precisam de conferência</li></ul></div></div>
+  </div>
+
+  <div class="panel" id="p9" role="tabpanel" aria-labelledby="t9" hidden>
+    <div class="r"><h3>O que muda no texto, e por quê</h3>
+      <p>A revisão melhora clareza, correção e fluidez sem descaracterizar a intenção original. Quando uma informação está ausente ou ambígua, ela é sinalizada, não inventada.</p>
+      <div class="bx"><div class="ba"><span class="k">Exemplo 1 · correção</span><p><del>O conteúdo deve responder as principais dúvidas do público e orientar os próximos passos.</del></p><p><ins>O conteúdo deve responder às principais dúvidas do público e orientar os próximos passos.</ins></p><p class="why"><b>O que mudou:</b> correção da regência de “responder a”.</p></div>
+        <div class="ba"><span class="k">Exemplo 2 · clareza</span><p><del>Realizo a produção dos materiais com o objetivo de contribuir para uma comunicação mais eficiente da marca.</del></p><p><ins>Produzo materiais para tornar a comunicação da marca mais clara e eficiente.</ins></p><p class="why"><b>O que mudou:</b> a frase ficou mais direta e menos burocrática.</p></div></div></div>
+    <div class="r">
+      <div class="bx"><div class="ba"><span class="k">Exemplo 3 · chamada final</span><p><del>Caso tenha interesse em obter mais informações sobre os serviços apresentados, entre em contato.</del></p><p><ins>Quer entender qual serviço faz sentido para o seu projeto? Entre em contato.</ins></p><p class="why"><b>O que mudou:</b> a chamada ficou mais próxima do leitor e orientada à decisão.</p></div>
+        <div class="ba"><span class="k">Exemplo 4 · ambiguidade</span><p><del>Depois da reunião com o cliente, revisei sua proposta.</del></p><p><b>Ponto de atenção:</b> a proposta é minha ou do cliente? Versões possíveis: “Depois da reunião, revisei a proposta do cliente.” ou “Depois da reunião com o cliente, revisei a minha proposta.”</p><p class="why"><b>O que mudou:</b> a ambiguidade foi sinalizada para validação antes da edição final.</p></div></div>
+      <div class="bx hl"><span class="k">O que seria entregue ao cliente</span><ul><li>Texto revisado</li><li>Relação das principais alterações, com o motivo de cada uma</li></ul></div></div>
+  </div>
+
+  <div class="bx" style="margin-top:24px;background:var(--bg)"><span class="k">O que este estudo demonstra</span><p>Este projeto demonstrativo mostra como uma mesma mensagem pode ser planejada, escrita, revisada e adaptada para diferentes canais. O objetivo não é apresentar resultados de campanha, mas evidenciar método, critérios de decisão e formatos de entrega. Em um projeto contratado, o processo seria ajustado ao negócio, ao público, aos canais, ao volume de conteúdo e aos materiais disponíveis.</p><div><a class="btn" href="#contato">Quero um material assim no meu projeto</a></div></div>
+</div></section>
+
+<section id="processo"><div class="w">
+  <div class="sh"><h2>Objetivos alinhados. Entregas bem definidas.</h2><p>Da primeira conversa à entrega final, cada etapa tem um objetivo definido e o material é validado antes da publicação.</p></div>
+  <ol class="proc cy">
+    <li><h3>Briefing e alinhamento</h3><p>Entendo objetivo, público e canais. Definimos escopo, prazos e critérios de aprovação.</p></li>
+    <li><h3>Pesquisa e planejamento</h3><p>Reúno referências, investigo as dúvidas do público e organizo temas e formatos.</p></li>
+    <li><h3>Produção de conteúdo</h3><p>Desenvolvo os materiais previstos, com linguagem adequada ao canal e à marca.</p></li>
+    <li><h3>Revisão e aprovação</h3><p>Confiro clareza e consistência, apresento o material e faço os ajustes previstos.</p></li>
+    <li><h3>Publicação e análise</h3><p>Quando incluído, acompanho a publicação e os indicadores combinados.</p></li>
+  </ol>
+</div></section>
+
+<section id="sobre" class="band"><div class="w">
+  <div class="ab">
+    <div>
+      <h3>Ferramentas e habilidades</h3>
+      <dl class="tl">
+        <div><dt>Design e vídeo</dt><dd>Photoshop, Illustrator, InDesign, Figma, Premiere Pro, CapCut</dd></div>
+        <div><dt>Áudio e transcrição</dt><dd>Ableton, Audacity, Descript, Rev</dd></div>
+        <div><dt>Tradução e localização</dt><dd>SDL Trados Studio, Phrase, Smartcat, memoQ, Smartling, Crowdin</dd></div>
+        <div><dt>IA</dt><dd>ChatGPT, Claude, Gemini</dd></div>
+        <div><dt>Web e produtividade</dt><dd>WordPress, WooCommerce, Bootstrap, Git e GitHub, Notion, MS Office, LibreOffice</dd></div>
+        <div><dt>Métodos</dt><dd>LGPD, Design Thinking</dd></div>
+      </dl>
+    </div>
+    <div>
+      <h3>Formação, idiomas e certificações</h3>
+      <ul class="fc">
+        <li><b>Comunicação Social</b><br><span>AEDB, 2017–2022</span></li>
+        <li><b>Idiomas</b><br><span>Português nativo · Inglês · Espanhol</span></li>
+        <li><b>Atuação</b><br><span>Freelancer, remoto ou presencial, com horários flexíveis e disponibilidade para viagens</span></li>
+      </ul>
+      <span class="k" style="margin-bottom:8px">Alguns cursos</span>
+      <div class="chips" style="margin:0"><span>SEO e Marketing de Conteúdo · ISDI</span><span>Marketing Digital · Univ. of Chicago</span><span>UX &amp; UI Design · Alura</span><span>Programação Web · SENAI</span><span>IA prática para marketing · Google</span><span>Comunicar com impacto · LSE</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="contato" class="ct"><div class="w">
+  <h2>Tem uma ideia ou um briefing? Vamos definir o primeiro passo.</h2>
+  <div class="row"><span class="k">E-mail</span><span class="v" id="c1">luan.mdmelo@gmail.com</span><button class="btn s oi" type="button" data-copy="c1">Copiar</button><a class="btn s i" href="mailto:luan.mdmelo@gmail.com">Abrir e-mail</a></div>
+  <div class="row"><span class="k">Telefone</span><span class="v" id="c2">(12) 98157-0927</span><button class="btn s oi" type="button" data-copy="c2">Copiar</button></div>
+  <div class="row"><span class="k">Local</span><span class="v">São Paulo, SP</span></div>
+  <p style="margin-top:14px;opacity:.85">Atendimento remoto, com horários flexíveis e disponibilidade para viagens.</p>
+</div></section>
+</main>
+
+<footer><div class="w">© 2026 Luan Miranda de Melo</div></footer>
+
+<div class="sw"><div role="group" aria-label="Comparar versões de design">
+  <button type="button" data-d="a" aria-pressed="true">Versão A · Google</button>
+  <button type="button" data-d="b" aria-pressed="false">Versão B · Editorial</button>
+</div></div>
+<p class="sr" id="live" aria-live="polite"></p>
+
+<script>
+(function(){
+  var R=document.documentElement,SB=[].slice.call(document.querySelectorAll('.sw button'));
+  function setD(d,save){
+    R.setAttribute('data-d',d);
+    SB.forEach(function(b){b.setAttribute('aria-pressed',b.getAttribute('data-d')===d?'true':'false')});
+    if(save){try{localStorage.setItem('design',d)}catch(e){}}
+  }
+  var d='a';try{d=localStorage.getItem('design')||'a'}catch(e){}
+  setD(d==='b'?'b':'a');
+  SB.forEach(function(b){b.addEventListener('click',function(){setD(b.getAttribute('data-d'),true)})});
+
+  var tabs=[].slice.call(document.querySelectorAll('[role=tab]'));
+  var panels=tabs.map(function(t){return document.getElementById(t.getAttribute('aria-controls'))});
+  function show(i,focus){
+    tabs.forEach(function(t,j){var on=i===j;t.setAttribute('aria-selected',on?'true':'false');t.tabIndex=on?0:-1;panels[j].hidden=!on});
+    if(focus)tabs[i].focus();
+  }
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){show(i)});
+    t.addEventListener('keydown',function(e){
+      var n=null,l=tabs.length;
+      if(e.key==='ArrowRight'||e.key==='ArrowDown')n=(i+1)%l;
+      else if(e.key==='ArrowLeft'||e.key==='ArrowUp')n=(i-1+l)%l;
+      else if(e.key==='Home')n=0;else if(e.key==='End')n=l-1;
+      if(n!==null){e.preventDefault();show(n,true)}
+    });
+  });
+
+  var live=document.getElementById('live');
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    var label=b.textContent;
+    b.addEventListener('click',function(){
+      var el=document.getElementById(b.getAttribute('data-copy'));
+      function done(ok){var m=ok?'Copiado':'Selecione e use Ctrl+C';b.textContent=m;live.textContent=m;setTimeout(function(){b.textContent=label},2200)}
+      function fb(){var ok=false;try{var r=document.createRange();r.selectNodeContents(el);var s=window.getSelection();s.removeAllRanges();s.addRange(r);ok=document.execCommand('copy')}catch(e){}done(ok)}
+      try{navigator.clipboard.writeText(el.textContent.trim()).then(function(){done(true)},fb)}catch(e){fb()}
+    });
+  });
+})();
+</script>
+</body>
+</html>
